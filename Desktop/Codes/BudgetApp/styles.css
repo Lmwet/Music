@@ -1,0 +1,78 @@
+
+image {
+    opacity: 10%;
+
+    right: 5px; /*this isnt workin*/
+    }
+
+h1{
+    font-size: 20 px; /*this isnt workin*/
+    margin-left: 25px;
+    }
+    
+h2{
+    font-size: 100 px; /*this isnt workin*/
+    font-weight: 800;
+    }
+
+body { 
+    width: 360px;
+    height: 640px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+
+    }
+
+div {
+    margin-left: 8px;
+    width: 200px;
+}
+
+button {
+    background-color: #C71EA2;
+    border-radius: 5%;
+    border: 2px;
+    border-color: black;
+    box-align: center; 
+    color: #000000;
+    margin: 4px;
+    }
+
+.fields {
+    border-color: rgb(56, 51, 51);
+    font-family: Play;
+    font-size: 14px;
+    line-height: 16px;
+    display: inline;
+    align-items: center;
+    letter-spacing: 0.02em;
+    margin: auto;
+    margin-left: 8px;
+}
+
+canvas {
+    height: 50px;
+    width: 580px;
+    top: 0px;
+    position: relative ;
+    z-index: -1;
+  }
+
+  i.fas {
+    top: 7px;
+    margin-left: 7px;
+    margin-right: 50px;
+    width: 25px;
+    height: 25px;
+    z-index: +100;
+    color: #C71EA2;
+    position: relative;
+}
+
+canvas.pinkRect {
+    color:#C71EA2;
+    border: #ffffff;
+    z-index: +100;
+    top: 35px;
+
+}

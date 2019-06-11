@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>MyBudgetApp</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <canvas id = myCanvas></canvas>
+    <i class="fas fa-arrow-left"></i>
+    <i class="fas fa-frog"></i> 
+    <i class="fas fa-arrow-right"></i>
+    <canvas classe = pinkRect></canvas>
+
+    <div id="availableMoney">
+    <h2>Currently available money:</h2>
+    <h1 id="EndSum">250</h1>
+    <img src="Drawing_coins.png" alt="coins" height="73" width="73">
+    </div>
+
+    <div id="addItem">
+    <p>Name of item: </p>
+    <input id="whatUbought" type="text" placeholder="What u bought">
+    <p>Price:</p>
+    <input id="price" type="number" placeholder="€€€.€">
+    <button id='submit'>Submit</button></br></br>
+    </div> 
+
+        <script src="app.js"></script>
+</body>
+</html>
